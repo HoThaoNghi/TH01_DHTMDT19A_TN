@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   h1 {
+        font-size: 30px;
+        text-align: justify;
+        color: black;
+    }
+
+    body {
+        background-color: white;
+        margin: 0;
+        padding: 20px;
+        color: black;
+        font-size: 18px;
+    }
+
+    form {
+        border: 2px solid black;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: white;
+        width: 400px;
+    }
+    input[type="submit"] {
+        background-color: green ;
+        color: whitewhite ;
+        padding: 10px 20px;
+        border: none;
+        font-size: 16px;
+    }
+</style>
+<body>
+    <h1>Đăng kí thông tin cá nhân </h1>
+<form>
+    <lablel for="Tên"> Tên:</lablel> 
+    <input type="text" id="name" name="name"><br><br>
+    <lablel for="Email "> Email: </lablel> 
+    <input type="email " id="email" name="emai"><br><br>
+    <lablel for="Số điện thoại"> Số điện thoại:</lablel> 
+    <input type="text" id="nubmer phone" name="number phone"><br><br>
+    <block-inline>
+        <a>Giới tính:  </a>
+        <input type="radio" id="male" name="gender" value="Nam">
+        <label for="male">Nam</label>
+        <input type="radio" id="female" name="gender" value="Nữ">
+        <label for="female">Nữ</label><br><br>
+    </block-inline>
+    <input type="submit" value="Nút gửi " >
+</form>
+
+</body>
+</html>
